@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Menu from '../assets/menu.png'
 
 function NavBar() {
     return (
@@ -13,6 +14,7 @@ function NavBar() {
                     <li><NavLink to="/about"> About </NavLink></li>
                     <li><NavLink to="/contact"> Contact Us </NavLink></li>
                 </ul>
+                <img src={Menu}></img>
             </header>
             <nav>
                 <p>Latest Post</p>

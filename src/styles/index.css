@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Montserrat+Alternates:wght@400;700;900&family=Montserrat:wght@300;400;700;900&family=Poppins:wght@300;700&display=swap');
 .main {
-    width: 80%;
+    width: 100%;
+    height: 90vh;
     margin: 0 auto;
     background-color: #333;
     box-sizing: border-box;
@@ -77,4 +78,20 @@ ul {
     padding: 5px 2px;
     font-size: 15px;
     margin: 2px 8px;
+}
+
+img {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .nav-bar header ul, .nav-bar nav ul {
+        display: none;
+    }
+    .nav-bar h1 {
+        font-size: 30px;
+    }
+    img {
+        display: initial;
+    }
 }
