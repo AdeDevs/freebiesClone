@@ -8,216 +8,261 @@ import Seven from "../assets/seventh.webp"
 import Eight from "../assets/eight.jpeg"
 import Nine from "../assets/ninth.webp"
 import Ten from "../assets/tenth.webp"
+import User from "../assets/user.png"
+import Time from "../assets/time.png"
+import Comment from "../assets/comment.png"
+import Hot from "../assets/hot.png"
 
 function Articles() {
   return (
     <>
       <section>
-        <img src={One} alt="" />
+        <div className="box-image"><img src={One} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
       
       <section>
-        <img src={Two} alt="" />
+        <div className="box-image"><img src={Two} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Three} alt="" />
+        <div className="box-image"><img src={Three} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Four} alt="" />
+        <div className="box-image"><img src={Four} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Five} alt="" />
+        <div className="box-image"><img src={Five} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Six} alt="" />
+        <div className="box-image"><img src={Six} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Seven} alt="" />
+        <div className="box-image"><img src={Seven} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Eight} alt="" />
+        <div className="box-image"><img src={Eight} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Nine} alt="" />
+        <div className="box-image"><img src={Nine} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>
 
       <section>
-        <img src={Ten} alt="" />
+        <div className="box-image"><img src={Ten} alt="" /> </div>
         <div>
-          <section>
-            <div>
+          <section className="info">
+            <div className="info-alpha">
                 <p>Hardeywarlex</p>
+                <img src={User} alt=""></img>
                 <p>19 hours ago</p>
+                <img src={Time} alt=""></img>
             </div>
-            <div>
+            <div className="info-beta">
                 <p>0</p>
+                <img src={Comment} alt=""></img>
                 <p>21</p>
+                <img src={Hot} alt=""></img>
             </div>
           </section>
-          <section>
+
+          <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More...</button>
+            <button>Read More &gt;&gt; </button>
           </section>
         </div>
       </section>

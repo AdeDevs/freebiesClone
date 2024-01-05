@@ -1,7 +1,7 @@
 .home {
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 6%;
+    padding: 0 10%;
     background-color: #fff;
 }
 
@@ -13,14 +13,17 @@
 }
 
 .home main .boxes, .home main .side {
-    background-color: red;
-    padding: 20px 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: black;
 }
 
 .home main .boxes {
-    background-color: blue;
-    width: 725px;
-    padding: 10px;
+    border: 1px solid grey;
+    background-color: transparent;
+    color: black;
+    border-radius: 20px;
+    width: 800px;
 }
 
 .home main .side {
@@ -29,13 +32,70 @@
 }
 
 .home main .boxes img{
-    width: 250px;
-    height: 150px;
-    margin: 0px 25px 5px 5px;
+    width: 100%;
     border-radius: 10px;
+    display: block;
+    align-items: center;
 }
 
 .home main .boxes>section {
     display: flex;
     margin: 10px;
+}
+
+.home main .boxes>section .box-image {
+    width: 400px;
+    align-items: center;
+    margin: 0px 25px 5px 5px;
+    justify-content: center;
+    height: 100%;
+}
+
+.home main .boxes>section .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home main .boxes>section .info>div {
+    display: flex;
+}
+
+.home main .boxes>section .info>div p {
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: lighter;
+    color: #808080;
+}
+
+.home main .boxes>section .info>div img {
+    width: 18px;
+    margin-right: 18px;
+}
+
+.home main .boxes section .news-preview h2 {
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.home main .boxes section .news-preview p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.home main .boxes section .news-preview button {
+    background-color: rgb(30,186,28);
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    color: white;
+    padding: 15px 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: 300ms;
+    font-weight: bolder;
+}
+
+.home main .boxes section .news-preview button:hover {
+    cursor: pointer;
+    background-color: #005900;
 }

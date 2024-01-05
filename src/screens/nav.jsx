@@ -16,6 +16,7 @@ function NavBar() {
                 </ul>
                 <img src={Menu}></img>
             </header>
+
             <nav>
                 <p>Latest Post</p>
             <ul>
