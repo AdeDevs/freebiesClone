@@ -12,19 +12,30 @@
     flex-wrap: wrap;
 }
 
-.home main div {
+.home main .boxes, .home main .side {
     background-color: red;
     padding: 20px 10px;
-    height: 100vh;
 }
 
-.home main div:nth-child(1) {
+.home main .boxes {
     background-color: blue;
     width: 725px;
     padding: 10px;
 }
 
-.home main div:nth-child(2) {
+.home main .side {
     width: 325px;
     padding: 10px;
+}
+
+.home main .boxes img{
+    width: 250px;
+    height: 150px;
+    margin: 0px 25px 5px 5px;
+    border-radius: 10px;
+}
+
+.home main .boxes>section {
+    display: flex;
+    margin: 10px;
 }

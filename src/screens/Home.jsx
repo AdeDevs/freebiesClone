@@ -1,13 +1,14 @@
 import '../styles/home.css'
+import Articles from './articles';
 
-function Home(params) {
+function Home() {
     return (
         <div className="home">
             <main>
-                <div>
-                    
+                <div className='boxes'>
+                    <Articles />
                 </div>
-                <div>
+                <div className='side'>
                     <p>Guyss im not here</p>
                 </div>
             </main>
