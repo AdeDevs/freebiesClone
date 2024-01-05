@@ -1,0 +1,147 @@
+function Articles() {
+  return (
+    <>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      <section>
+        <img src="#" alt="" />
+        <div>
+          <section>
+            <div></div>
+            <div></div>
+          </section>
+          <section>
+            <h2></h2>
+            <p></p>
+            <button></button>
+          </section>
+        </div>
+      </section>
+      ¸
+    </>
+  );
+}

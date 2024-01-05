@@ -1,0 +1,30 @@
+.home {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 6%;
+    background-color: #fff;
+}
+
+.home main {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home main div {
+    background-color: red;
+    padding: 20px 10px;
+    height: 100vh;
+}
+
+.home main div:nth-child(1) {
+    background-color: blue;
+    width: 725px;
+    padding: 10px;
+}
+
+.home main div:nth-child(2) {
+    width: 325px;
+    padding: 10px;
+}
