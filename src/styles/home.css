@@ -23,11 +23,13 @@
     background-color: transparent;
     color: black;
     border-radius: 20px;
+    margin: 0 auto;
     width: 800px;
 }
 
 .home main .side {
     width: 325px;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -98,4 +100,21 @@
 .home main .boxes section .news-preview button:hover {
     cursor: pointer;
     background-color: #005900;
+}
+
+@media (max-width: 700px) {
+    .home {
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .home main .boxes>section {
+        display: block;
+    }
+    .home main .boxes {
+        width: 100%;
+    }
+    .home main .side {
+        display: none;
+    }
 }

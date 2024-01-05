@@ -48,19 +48,19 @@ function Articles() {
             <div className="info-alpha">
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
-                <p>19 hours ago</p>
+                <p>6 days ago</p>
                 <img src={Time} alt=""></img>
             </div>
             <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
-                <p>21</p>
+                <p>81</p>
                 <img src={Hot} alt=""></img>
             </div>
           </section>
           <section className="news-preview">
-            <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
-            <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
+            <h2>Ice Review – Everything you need to know about Ice Mining</h2>
+            <p>Ice is a revolutionary new digital currency that is changing the way people think about money. With Ice, users can…</p>
             <button>Read More &gt;&gt; </button>
           </section>
         </div>
