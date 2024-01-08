@@ -23,6 +23,7 @@
     color: black;
     border-radius: 20px;
     margin: 0 auto;
+    height: fit-content;
     width: 800px;
 }
 
@@ -127,6 +128,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    list-style-type: disc;
+}
+
 .side nav ul li {
     padding: 2px 10px;
     color: #000;
@@ -173,7 +178,7 @@
 }
 
 /* modified section style */
-.modified-box {
+.modified-box{
     margin-top: 50px;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 20px;
@@ -216,6 +221,42 @@
     margin: 0 auto;
 }
 
+/* most-box styling */
+.most-box {
+    margin-top: 50px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 20px;
+}
+
+.most-box nav {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.most-box div section {
+    margin: 10px 10px;
+    transition: 500ms;
+}
+
+.most-box div section p {
+    font-size: 8px;
+    color: gray;
+}
+
+.most-box div section h1 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.most-box div section:hover {
+    color: rgb(1, 36, 139);
+    text-decoration: underline;
+}
+
 @media (max-width: 700px) {
     .home {
         padding: 0;
@@ -245,5 +286,11 @@
     .modified-box div section {
         margin: 3px 10px;
         width: 180px;
+    }
+    .most-box nav {
+        padding: 20px;
+    }
+    .most-box div section {
+        margin: 20px;
     }
 }

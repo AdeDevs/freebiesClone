@@ -309,6 +309,35 @@ function Home() {
               </section>
             </div>
           </div>
+
+          <div className="most-box">
+            <nav>
+                <h1>Most Viewed</h1>
+                <img src={Comment} />
+            </nav>
+            <div>
+              <section>
+                <p>08/01/2024</p>
+                <h1>How to activate Free MTN 300mb Daily Data using VPN</h1>
+              </section>
+              <section>
+                <p>08/01/2024</p>
+                <h1>myMTN App – Get free 50gb Data on your MTN Sim</h1>
+              </section>
+              <section>
+                <p>08/01/2024</p>
+                <h1>How To Activate MTN mPulse Education Data Plan Tunneled With Vpn</h1>
+              </section>
+              <section>
+                <p>08/01/2024</p>
+                <h1>Luno Wallet – Get N3,500 in Bitcoin for Registration & Referral</h1>
+              </section>
+              <section>
+                <p>08/01/2024</p>
+                <h1>Noah Global – Get free $3 & up to $20 USDT</h1>
+              </section>
+            </div>
+          </div>
         </div>
       </main>
     </div>
