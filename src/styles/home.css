@@ -275,21 +275,21 @@ h2 {
         display: block;
     }
     .home main .side {
-        width: fit-content;
         margin-top: 30px;
+        width: 100%;
     }
     .side .recent h2 {
-        width: 300px;
+        width: 200px;
     }
     .side .recent-image {
-        width: 30%;
+        width: 1500px;
     }
     .modified-box div {
         align-items: flex-start;
         justify-content: space-between;
     }
     .modified-box div section {
-        margin: 3px 10px;
+        margin: 3px auto;
         width: 180px;
     }
     .most-box nav {
@@ -297,5 +297,20 @@ h2 {
     }
     .most-box div section {
         margin: 20px;
+    }
+}
+
+@media (max-width:1300px) {
+    .home main .boxes {
+        margin: 0 auto;
+    }
+    .home main .side {
+        width: 100%;
+        margin: 50px 0px 0px 20px;
+        align-items: center;
+    }
+    .side .recent h2 {
+        width: 400px;
+        font-size: 20px;
     }
 }
