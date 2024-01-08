@@ -111,4 +111,7 @@ ul {
     .nav-bar #mobile {
         display: initial;
     }
+    .nav-bar header h1 img {
+        width: 100px;
+    }
 }
