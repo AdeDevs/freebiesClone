@@ -7,6 +7,7 @@ import Crypto from "./screens/Crypto";
 import Contact from "./screens/Contact";
 import Airtime from "./screens/Airtime"
 import ErrorBoundary from "./screens/ErrorBoundary"
+import Recent from "./screens/recent";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Route path="/crypto" element={<Crypto/>}></Route>
         <Route path="/airtime" element={<Airtime/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/recent" element={<Recent />}></Route>
+        {/* <Route path="/popular" element={}></Route>
+        <Route path="/comments" element={}></Route> */}
         <Route path="*" element={<ErrorBoundary />}></Route>
       </Routes>
       </div>

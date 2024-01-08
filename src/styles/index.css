@@ -10,15 +10,20 @@
 }
 
 .nav-bar header a.active {
-    color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    border-bottom: 2px solid rgb(83, 83, 83);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .nav-bar header h1 a.active {
     color: inherit;
     background-color: inherit;
     border-bottom: none;
+}
+
+.nav-bar header h1 img {
+    display: inline;
+    width: 200px;
 }
 
 a {
@@ -29,8 +34,8 @@ a {
 }
 
 a:hover{
-    color: rgb(83, 83, 83);
-    border-bottom: 2px solid rgb(83, 83, 83);
+    color: rgb(220, 220, 220);
+    border-bottom: 2px solid rgb(220, 220, 220);
 }
 
 ul {
@@ -42,15 +47,10 @@ ul {
     margin-bottom: 280px;
 }
 
-.nav-bar h1 {
-    font-size: 40px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-}
 
 .nav-bar header, .nav-bar nav {
     display: flex;
-    background-color: rgb(30,186,28);
+    background-color: rgb(20 65 201);
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -63,7 +63,7 @@ ul {
     background-color: #fff;
     box-sizing: border-box;
     padding: 0 10%;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(20, 65, 201, 0.184);
 }
 
 .nav-bar ul {
@@ -75,13 +75,13 @@ ul {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     font-size: 10px;
-    color: #078b2d;
+    color: rgb(20 65 201);
 }
 
 .nav-bar nav p {
     font-size: 13px;
     color: #fff;
-    background-color: #078b2d;
+    background-color: rgb(20 65 201);
     padding: 13px 15px;
 }
 
@@ -97,7 +97,7 @@ ul {
     margin: 2px 8px;
 }
 
-.nav-bar img {
+.nav-bar #mobile {
     display: none;
 }
 
@@ -108,7 +108,7 @@ ul {
     .nav-bar h1 {
         font-size: 30px;
     }
-    .nav-bar img {
+    .nav-bar #mobile {
         display: initial;
     }
 }
