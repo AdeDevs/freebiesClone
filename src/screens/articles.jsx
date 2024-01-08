@@ -68,6 +68,7 @@ function Articles() {
 
       <section>
         <div className="box-image"><img src={Three} alt="" /> </div>
+        
         <div>
           <section className="info">
             <div className="info-alpha">
