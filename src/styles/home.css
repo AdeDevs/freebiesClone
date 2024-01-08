@@ -35,7 +35,7 @@
 
 .home main .boxes img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     display: block;
     align-items: center;
 }
@@ -271,9 +271,8 @@ h2 {
     }
     .home main .boxes>section .box-image {
         margin: 0 auto;
-        width: 390px;
+        width: fit-content;
         display: block;
-        background-color: red;
     }
     .home main .side {
         width: fit-content;
