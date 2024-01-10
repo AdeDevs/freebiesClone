@@ -385,6 +385,9 @@ footer .footer-box section {
         box-sizing: border-box;
         overflow: hidden;
     }
+    .home main {
+        padding: 0 1%;
+    }
     .home main .boxes>section {
         display: block;
     }
@@ -423,6 +426,8 @@ footer .footer-box section {
     }
     footer .footer-box {
         border: none;
+        margin: 0px auto;
+        padding: 0px;
         width: 100%;
     }
     .footer-modified {
