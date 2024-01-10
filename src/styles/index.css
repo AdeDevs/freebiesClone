@@ -115,3 +115,42 @@ ul {
         width: 100px;
     }
 }
+
+/* hamburger menu */
+.nav-bar #hamburger{
+    display: none;
+    background-color: rgb(20, 65, 201);
+    align-items: center;
+    width: 100%;
+    padding: 2% 10%;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+.nav-bar #hamburger a.active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.nav-bar #hamburger h1 a.active {
+    color: inherit;
+    background-color: inherit;
+    border-bottom: none;
+}
+
+#close {
+    width: 20px;
+    display: none;
+}
+
+
+#hamburger ul {
+    display: block;
+    margin: 50px 0px;
+}
+
+#hamburger ul li {
+    margin: 20px 0;
+}
