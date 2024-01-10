@@ -5,16 +5,14 @@ import Logo from "../assets/shizzy.png";
 // import { useRef } from "react";
 // import { FaBars, FaTimes } from "react-icons/fa";
 import Close from "../assets/close.png"
+import { Fade } from "react-reveal";
 
 function NavBar() {
     const OpenMe = () => {
         document.getElementById('hamburger').style.display = "flex"
         document.getElementById('close').style.display = "initial"
         document.getElementById('mobile').style.display = "none"
-        };
-        // const CloseMe = () => {
-          
-        //   };  
+        }; 
           const CloseMe = () => {
             document.getElementById('hamburger').style.display = "none";
             document.getElementById('close').style.display = "none"
@@ -30,22 +28,22 @@ function NavBar() {
           </NavLink>
         </h1>
         <ul>
-          <li onClick={CloseMe}>
+          <li>
             <NavLink to="/"> Home </NavLink>
           </li>
-          <li onClick={CloseMe}>
+          <li>
             <NavLink to="/update"> Update </NavLink>
           </li>
-          <li onClick={CloseMe}>
+          <li>
             <NavLink to="/crypto"> Crypto </NavLink>
           </li>
-          <li onClick={CloseMe}>
+          <li>
             <NavLink to="/airtime"> Airtime </NavLink>
           </li>
-          <li onClick={CloseMe}>
+          <li>
             <NavLink to="/about"> About </NavLink>
           </li>
-          <li onClick={CloseMe}>
+          <li>
             <NavLink to="/contact"> Contact Us </NavLink>
           </li>
         </ul>
@@ -53,30 +51,32 @@ function NavBar() {
         <img id="close" src={Close} onClick={CloseMe}/>
       </header>
 
-      <div id="hamburger">
+     <Fade top>
+     <div id="hamburger">
         <section>
         <ul>
-          <li>
+          <li onClick={CloseMe}>
             <NavLink to="/"> Home </NavLink>
           </li>
-          <li>
+          <li onClick={CloseMe}>
             <NavLink to="/update"> Update </NavLink>
           </li>
-          <li>
+          <li onClick={CloseMe}>
             <NavLink to="/crypto"> Crypto </NavLink>
           </li>
-          <li>
+          <li onClick={CloseMe}>
             <NavLink to="/airtime"> Airtime </NavLink>
           </li>
-          <li>
+          <li onClick={CloseMe}>
             <NavLink to="/about"> About </NavLink>
           </li>
-          <li>
+          <li onClick={CloseMe}>
             <NavLink to="/contact"> Contact Us </NavLink>
           </li>
         </ul>
         </section>
       </div>
+     </Fade>
       <nav>
         <p>Latest Post</p>
         <ul>
