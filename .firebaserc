@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "shizzynet-99fd9",
+    "shizzyapp": "shizzynetapp"
+  },
+  "targets": {},
+  "etags": {}
+}
