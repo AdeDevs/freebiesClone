@@ -15,10 +15,12 @@ import Clock from "../assets/clock.png"
 import Doc from "../assets/document.png"
 import Eye from "../assets/eye.png"
 import Chat from "../assets/chat.png"
+import { Fade } from "react-reveal";
 
 function Home() {
   return (
-    <div className="home">
+    <Fade left big cascade>
+      <div className="home">
       <main>
         <div className="boxes">
           <Articles />
@@ -507,6 +509,7 @@ function Home() {
         <br />
       </footer>
     </div>
+    </Fade>
   );
 }
 
