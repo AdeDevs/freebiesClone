@@ -12,6 +12,7 @@ import User from "../assets/user.png"
 import Time from "../assets/time.png"
 import Comment from "../assets/comment.png"
 import Hot from "../assets/hot.png"
+import { NavLink } from "react-router-dom"
 
 function Articles() {
   return (
@@ -36,7 +37,7 @@ function Articles() {
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
             <p>Athene Network (ATH) is a pioneering Cryptocurrency Project in the field of AI Data Mining. It has a unique app…</p>
-            <button>Read More &gt;&gt; </button>
+            <button><NavLink to="/article"> Read More &gt;&gt; </NavLink> </button> 
           </section>
         </div>
       </section>

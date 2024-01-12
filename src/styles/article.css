@@ -1,0 +1,19 @@
+.article-box {
+    background-color: rebeccapurple;
+    height: 100vh;
+    padding: 0 20%;
+    padding-top: 1px;
+    box-sizing: border-box; 
+}
+
+.article-box .article-card {
+    background-color: red;
+    margin: 50px auto;
+}
+
+.article-box img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
