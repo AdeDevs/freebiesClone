@@ -44,7 +44,6 @@ ul {
 
 .nav-bar {
     font-family: "Poppins", sans-serif;
-    margin-bottom: 280px;
 }
 
 
@@ -62,7 +61,7 @@ ul {
 .nav-bar nav {
     background-color: #fff;
     box-sizing: border-box;
-    padding: 0 10%;
+    padding: 0%;
     border-bottom: 1px solid rgba(20, 65, 201, 0.184);
 }
 

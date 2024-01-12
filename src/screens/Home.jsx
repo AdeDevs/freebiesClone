@@ -21,11 +21,17 @@ function Home() {
   return (
     <Fade left big cascade>
       <div className="home">
+        <div className="add-article">
+          <form>
+          <input type="text" placeholder="Type in your title" />
+          <textarea name="article" placeholder="Type your article in here"></textarea>
+          <button>Post Article</button>
+          </form>
+        </div>
       <main>
         <div className="boxes">
           <Articles />
         </div>
-
         <div className="side">
           <div className="recent-box">
             <nav>

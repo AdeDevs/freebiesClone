@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Menu from "../assets/menu.png";
-import Logo from "../assets/shizzy.png";
+import Logo from "../assets/logo.png";
 // import { Fade } from "react-reveal";
 // import { useRef } from "react";
 // import { FaBars, FaTimes } from "react-icons/fa";
@@ -51,7 +51,7 @@ function NavBar() {
         <img id="close" src={Close} onClick={CloseMe}/>
       </header>
 
-     <Fade top>
+     <Fade left>
      <div id="hamburger">
         <section>
         <ul>
@@ -77,7 +77,7 @@ function NavBar() {
         </section>
       </div>
      </Fade>
-      <nav>
+     {/* <nav>
         <p>Latest Post</p>
         <ul>
           <li>
@@ -99,7 +99,7 @@ function NavBar() {
             <NavLink to="/contact"> Contact Us </NavLink>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 }
