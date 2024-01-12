@@ -85,7 +85,7 @@ select {
     padding: 5px 15px;
 }
 
-p {
+.add-article p {
     color: rgb(1, 36, 139);
 }
 

@@ -267,12 +267,11 @@ footer {
 footer .footer-box {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.226);
-    width: 85%;
+    width: 80%;
     margin: 20px auto;
-    padding: 30px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     box-sizing: border-box;
 }
 footer .footer-box section {
