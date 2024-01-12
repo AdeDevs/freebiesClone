@@ -45,7 +45,7 @@
     font-weight: lighter;
     width: 100%;
     border-radius: 0 0 10px 10px;
-    height: 400px;
+    height: 200px;
     margin-bottom: 55px;
 }
 
@@ -69,6 +69,13 @@
     background-color: rgb(1, 36, 139);
 }
 
+.categories {
+    display: flex;
+    width: 21%;
+    align-items: center;
+    justify-content: space-between;
+}
+
 select {
     font-family: "Poppins", sans-serif;
     border-radius: 5px;
@@ -78,6 +85,27 @@ select {
     padding: 5px 15px;
 }
 
-label {
+p {
     color: rgb(1, 36, 139);
+}
+
+@media (max-width: 700px) {
+    .categories {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .add-article {
+        padding: 0 2%;
+    }
+    .add-article textarea {
+        height: 65vh;
+    }
+    .add-article form button {
+        text-align: center;
+        margin: 10px auto;
+        position: relative;
+        box-sizing: border-box;
+        width: 80%;
+        display: block;
+    }
 }
