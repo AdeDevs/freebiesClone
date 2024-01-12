@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "shizzynet-99fd9",
+    "default": "shizzynetapp",
     "shizzyapp": "shizzynetapp"
   },
   "targets": {},
