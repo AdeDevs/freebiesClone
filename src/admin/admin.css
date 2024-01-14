@@ -128,7 +128,7 @@
 @media screen and (width: 700px) {
     .admin-login {
         width: 100%;
-        box-sizing: border-box;
+
     }
     .admin-login #login form, #signin form {
         width: 100%;
