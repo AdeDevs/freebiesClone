@@ -258,13 +258,13 @@ h2 {
 }
 
 /* footer style */
-footer {
+.home footer {
     background-color: #1f2024;
     box-sizing: border-box;
     color: green;
 }
 
-footer .footer-box {
+.home footer .footer-box {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.226);
     width: 80%;
@@ -274,7 +274,7 @@ footer .footer-box {
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-footer .footer-box section {
+.home footer .footer-box section {
     color: white;
     margin: 0 auto;
     width: 370px;

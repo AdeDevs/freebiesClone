@@ -9,14 +9,17 @@ import Airtime from "./screens/Airtime"
 import ErrorBoundary from "./screens/ErrorBoundary"
 import Recent from "./screens/recent";
 import FullArticle from "./screens/articlepage";
+import AdminPage from "./admin/admin";
+import AdminLogin from "./admin/adminlogin";
 
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="main">
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<AdminLogin />}></Route>
+        <Route path="/admin" element={<AdminPage />}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/update" element={<Update/>}></Route>
         <Route path="/crypto" element={<Crypto/>}></Route>
