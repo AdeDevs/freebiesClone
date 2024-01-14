@@ -1,5 +1,5 @@
 import "../styles/admin.css"
-import Articles from "./articles";
+import Articles from "../screens/articles";
 
 function AdminPage() {
   return (

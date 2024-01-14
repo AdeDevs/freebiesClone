@@ -9,7 +9,6 @@ import Airtime from "./screens/Airtime"
 import ErrorBoundary from "./screens/ErrorBoundary"
 import Recent from "./screens/recent";
 import FullArticle from "./screens/articlepage";
-import AdminPage from "./screens/Admin";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/recent" element={<Recent />}></Route>
         <Route path="/article" element={<FullArticle />}></Route>
-        <Route path="/admin" element={<AdminPage />}></Route>
         <Route path="*" element={<ErrorBoundary />}></Route>
       </Routes>
       </div>

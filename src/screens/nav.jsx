@@ -22,7 +22,7 @@ function NavBar() {
     <div className="nav-bar">
       <header>
         <h1>
-          <NavLink to="/admin">
+          <NavLink>
             {" "}
             <img src={Logo} />{" "}
           </NavLink>
