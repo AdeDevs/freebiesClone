@@ -24,7 +24,6 @@
     border-radius: 20px;
     margin: 0 auto;
     height: fit-content;
-    
     width: 800px;
 }
 
@@ -265,24 +264,28 @@ h2 {
     color: green;
 }
 
-.home footer .footer-box {
+
+footer .footer-box {
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.226);
-    width: 80%;
+    border: 1px solid rgba(255,255,255,.226);
+    width: 85%;
     margin: 20px auto;
-    padding: 5px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     box-sizing: border-box;
 }
+
 .home footer .footer-box section {
     color: white;
     margin: 0 auto;
-    width: 370px;
+    width: 400px;
     box-sizing: border-box;
 }
 
 .footer-box .footer-recent {
+    background-color: red;
     width: 100%;
 }
 
@@ -313,7 +316,7 @@ h2 {
 
 .footer-card .news-preview {
     margin-left: 20px;
-    width: 100%;
+    width: 300px;
     box-sizing: border-box;
 }
 

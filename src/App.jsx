@@ -8,7 +8,6 @@ import Contact from "./screens/Contact";
 import Airtime from "./screens/Airtime"
 import ErrorBoundary from "./screens/ErrorBoundary"
 import Recent from "./screens/recent";
-import FullArticle from "./screens/articlepage";
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <Route path="/airtime" element={<Airtime/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/recent" element={<Recent />}></Route>
-        <Route path="/article" element={<FullArticle />}></Route>
         <Route path="*" element={<ErrorBoundary />}></Route>
       </Routes>
       </div>
