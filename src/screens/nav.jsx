@@ -38,7 +38,7 @@ function NavBar() {
             <NavLink to="/crypto"> Crypto </NavLink>
           </li>
           <li>
-            <NavLink to="/airtime"> Airtime </NavLink>
+            <NavLink to="/airtime"> Free Browsing </NavLink>
           </li>
           <li>
             <NavLink to="/about"> About </NavLink>

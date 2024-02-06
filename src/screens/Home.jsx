@@ -38,9 +38,9 @@ function Home() {
                 <li>
                   <NavLink>Popular</NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink>Comments</NavLink>
-                </li>
+                </li> */}
               </ul>
             </nav>
             <div>

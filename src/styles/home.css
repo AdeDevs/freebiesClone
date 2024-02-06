@@ -58,6 +58,16 @@
     justify-content: space-between;
 }
 
+.home main .boxes>section .info .info-alpha {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home main .boxes>section .info .info-alpha article {
+    display: flex;
+    justify-content: space-between;
+}
+
 .home main .boxes>section .info>div {
     display: flex;
 }
@@ -265,7 +275,7 @@ h2 {
 }
 
 
-footer .footer-box {
+.home .footer-box {
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,.226);
     width: 85%;
@@ -277,7 +287,9 @@ footer .footer-box {
     box-sizing: border-box;
 }
 
-.home footer .footer-box section {
+
+
+.home footer .footer-box>section {
     color: white;
     margin: 0 auto;
     width: 400px;
@@ -285,7 +297,6 @@ footer .footer-box {
 }
 
 .footer-box .footer-recent {
-    background-color: red;
     width: 100%;
 }
 
@@ -303,13 +314,14 @@ footer .footer-box {
     display: block;
 }
 
-.footer-box .footer-recent .footer-card {
+.footer-box section .footer-recent .footer-card {
     align-items: center;
     display: flex;
+    box-sizing: border-box;
     margin: 10px auto;
 }
 
-.footer-box .footer-recent .footer-image img {
+.footer-box section .footer-recent div .footer-image img {
     width: 120px;
     border-radius: 20px;
 }
@@ -383,6 +395,73 @@ footer .footer-box {
 }
 
 
+footer .footer-box>section { 
+    color: #fff; 
+    margin: 0 auto; 
+    width: 370px; 
+    box-sizing: border-box;
+} 
+
+.footer-card  { 
+    align-items: center; 
+    display: flex; 
+    margin: 10px auto;
+} 
+
+.footer-card .news-preview  { 
+    margin-left: 20px; 
+    width: 100%; 
+    box-sizing: border-box;
+} 
+
+img { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.footer-image img  { 
+    width: 120px; 
+    border-radius: 20px;
+} 
+
+h2 { 
+    list-style-type: disc;
+} 
+
+h2 { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.footer-card .news-preview h2  { 
+    font-weight: bolder; 
+    font-size: 10px; 
+    font-family: Montserrat,sans-serif;
+} 
+
+a:hover { 
+    color: #dcdcdc; 
+    border-bottom: 2px solid rgb(220,220,220);
+} 
+
+img  { 
+    border: none;
+} 
+
+.footer-recent nav img { 
+    width: 20px; 
+    display: block;
+} 
+
+
 @media (max-width: 700px) {
     .home {
         padding: 0;
@@ -430,8 +509,6 @@ footer .footer-box {
     }
     footer .footer-box {
         border: none;
-        margin: 0px auto;
-        padding: 0px;
         width: 100%;
     }
     .footer-modified {

@@ -22,17 +22,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -45,19 +49,23 @@ function Articles() {
       <section>
         <div className="box-image"><img src={Two} alt="" /> </div>
         <div>
-          <section className="info">
+        <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
-                <p>6 days ago</p>
+              </article>
+              <article>
+                <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
-                <p>81</p>
+                <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Ice Review – Everything you need to know about Ice Mining</h2>
@@ -73,17 +81,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -98,17 +110,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -123,17 +139,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -148,17 +168,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -173,17 +197,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -198,17 +226,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -223,17 +255,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
           <section className="news-preview">
             <h2>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h2>
@@ -248,17 +284,21 @@ function Articles() {
         <div>
           <section className="info">
             <div className="info-alpha">
+              <article>
                 <p>Hardeywarlex</p>
                 <img src={User} alt=""></img>
+              </article>
+              <article>
                 <p>19 hours ago</p>
                 <img src={Time} alt=""></img>
+              </article>
             </div>
-            <div className="info-beta">
+            {/* <div className="info-beta">
                 <p>0</p>
                 <img src={Comment} alt=""></img>
                 <p>21</p>
                 <img src={Hot} alt=""></img>
-            </div>
+            </div> */}
           </section>
 
           <section className="news-preview">
